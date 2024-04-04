@@ -21,7 +21,7 @@
 2. Нажимаем на "Edit configuration templates"
 3. Выбираем "Junit" шаблон
 4. Находим поле "Enviroment variables" и нажимаем на "Edit enviroment variables" и указываем необходимые переменные окружения
-5. Указываем "BROWSER" = "Chromium"
+5. Указываем "BROWSER" = "Chromium"(Все доступные браузеры для запуска можно найти в классе `BrowserConfig`)
 6. Указываем "HEADLESS" = "false"(для локального развертывания лучше false, для CI - true)
 7. MAIN_URL = "https://www.google.com/" (ссылка на наше окружение)
 8. Жмем везде "Ок"
